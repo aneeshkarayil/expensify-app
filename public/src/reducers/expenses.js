@@ -11,13 +11,14 @@ const expensesReducer = (state = expensesReducerDefaultState, action) => {
       });
 
     case "EDIT_EXPENSE":
-      return state.map(expense => {
+      return state.map((expense) => {
         return {
           ...expense,
-          ...action.updates
+          ...action.updates,
         };
       });
-
+    case "SET_EXPENSES":
+      return action.expenses;
     default:
       return state;
   }
