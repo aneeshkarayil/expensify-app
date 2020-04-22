@@ -6,7 +6,6 @@ import ExpenseDashboardPage from "../components/DashboardPage";
 import AddExpensePage from "../components/AddExpensePage";
 import EditPage from "../components/EditPage";
 import NotFoundPage from "../components/NotFoundPage";
-import Header from "../components/Header";
 import LoginPage from "../components/LoginPage";
 import PrivateRoute from "./PrivateRoute";
 
